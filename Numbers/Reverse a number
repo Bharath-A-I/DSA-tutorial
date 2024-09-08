@@ -1,0 +1,10 @@
+n=int(input("Enter the number"))
+unit_digit=0
+reversed_num=0
+while n!=0:
+  unit_digit=n%10
+  n=n//10
+  reversed_num=(reversed_num+unit_digit)*10
+reversed_num=reversed_num//10
+print(reversed_num)
+  
